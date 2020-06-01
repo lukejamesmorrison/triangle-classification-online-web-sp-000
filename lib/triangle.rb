@@ -12,7 +12,7 @@ class Triangle
 
   def kind
 
-    if !valid?
+    if !valid? || illegal?
       begin
         raise TriangleError
       rescue TriangleError => error
@@ -30,8 +30,9 @@ class Triangle
         :scalene
       end
     end
+  end
 
-
+  def illegal?
   end
 
   def valid?
