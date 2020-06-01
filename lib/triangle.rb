@@ -7,6 +7,8 @@ class Triangle
   end
 
   def kind
+
+
     # equilateral
     if @side_a == @side_b && @side_a == @side_c
       :equilateral
@@ -19,5 +21,8 @@ class Triangle
     end
 
   end
+
+  def valid?
+    enmd
 
 end
