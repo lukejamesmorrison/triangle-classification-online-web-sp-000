@@ -33,6 +33,7 @@ class Triangle
   end
 
   def illegal?
+    @side_a == @side_b == @side_c == 0
   end
 
   def valid?
