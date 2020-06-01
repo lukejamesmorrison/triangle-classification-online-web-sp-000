@@ -23,6 +23,6 @@ class Triangle
   end
 
   def valid?
-    enmd
+  end
 
 end
