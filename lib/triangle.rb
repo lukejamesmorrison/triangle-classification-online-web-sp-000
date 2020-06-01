@@ -7,6 +7,17 @@ class Triangle
   end
 
   def kind
+    # equilateral
+    if @side_a == @side_b && @side_a == @side_c
+
+    # isoceles
+    elsif @side_a == @side_b || @side_a == @side_c
+
+    #scalene
+    else
+
+    end
+
   end
 
 end
