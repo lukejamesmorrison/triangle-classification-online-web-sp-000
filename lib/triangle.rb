@@ -20,7 +20,7 @@ class Triangle
       if @side_a == @side_b && @side_a == @side_c
         :equilateral
       # isoceles
-      elsif @side_a == @side_b || @side_a == @side_c
+    elsif @side_a == @side_b || @side_a == @side_c || @side_b == @side_c
         :isoceles
       #scalene
       else
