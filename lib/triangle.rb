@@ -8,7 +8,9 @@ class Triangle
 
   def kind
 
-
+    if !valid?
+      begin
+    end
     # equilateral
     if @side_a == @side_b && @side_a == @side_c
       :equilateral
