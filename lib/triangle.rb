@@ -6,11 +6,15 @@ class Triangle
     @side_c = side_c
   end
 
+  class TriangleError < StandardError
+    # triangle error code
+  end
+
   def kind
 
     if !valid?
       begin
-
+        raise
     else
       # equilateral
       if @side_a == @side_b && @side_a == @side_c
