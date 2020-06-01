@@ -23,6 +23,7 @@ class Triangle
   end
 
   def valid?
+    @side_a + @side_b < @side_c || @side_a + @side_c < @side_b || @side_b + @side_c < @side_a
   end
 
 end
