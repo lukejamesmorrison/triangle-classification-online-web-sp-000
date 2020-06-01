@@ -7,14 +7,14 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    
+
   end
 
   def kind
 
     if !valid?
-      begin
-        raise
+      # begin
+      #   raise
     else
       # equilateral
       if @side_a == @side_b && @side_a == @side_c
