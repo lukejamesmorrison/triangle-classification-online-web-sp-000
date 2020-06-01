@@ -16,6 +16,7 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError => error
+        #
       end
     else
       # equilateral
